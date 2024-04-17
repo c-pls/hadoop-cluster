@@ -14,9 +14,3 @@ RUN cd isa-l \
     && ./configure --prefix=/usr --libdir=/usr/lib64 \
     && make \
     && make install
-
-# RUN cp /usr/local/lib/libisal.so /usr/lib/hadoop/lib/native/
-# RUN cp /usr/local/lib/libisal.so.2 /usr/lib/hadoop/lib/native/
-
-RUN echo $(hadoop checknative)
-# ./configure --prefix=/usr --libdir=/usr/lib64
